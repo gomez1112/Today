@@ -14,6 +14,8 @@
 		CC2DD7972B4B5986005CC9C9 /* TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DD7962B4B5986005CC9C9 /* TodayTests.swift */; };
 		CC2DD7A12B4B5986005CC9C9 /* TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DD7A02B4B5986005CC9C9 /* TodayUITests.swift */; };
 		CC2DD7A32B4B5986005CC9C9 /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DD7A22B4B5986005CC9C9 /* TodayUITestsLaunchTests.swift */; };
+		CC2DD7B12B4B5C06005CC9C9 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DD7B02B4B5C06005CC9C9 /* Reminder.swift */; };
+		CC2DD7B32B4B5C6C005CC9C9 /* Reminder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DD7B22B4B5C6C005CC9C9 /* Reminder+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		CC2DD7A02B4B5986005CC9C9 /* TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITests.swift; sourceTree = "<group>"; };
 		CC2DD7A22B4B5986005CC9C9 /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC2DD7AF2B4B5A4C005CC9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC2DD7B02B4B5C06005CC9C9 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		CC2DD7B22B4B5C6C005CC9C9 /* Reminder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				CC2DD7AF2B4B5A4C005CC9C9 /* Info.plist */,
 				CC2DD7842B4B5985005CC9C9 /* TodayApp.swift */,
+				CC2DD7B02B4B5C06005CC9C9 /* Reminder.swift */,
+				CC2DD7B22B4B5C6C005CC9C9 /* Reminder+Extension.swift */,
 				CC2DD7862B4B5985005CC9C9 /* ContentView.swift */,
 				CC2DD7882B4B5986005CC9C9 /* Assets.xcassets */,
 				CC2DD78A2B4B5986005CC9C9 /* Today.entitlements */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2DD7B12B4B5C06005CC9C9 /* Reminder.swift in Sources */,
+				CC2DD7B32B4B5C6C005CC9C9 /* Reminder+Extension.swift in Sources */,
 				CC2DD7872B4B5985005CC9C9 /* ContentView.swift in Sources */,
 				CC2DD7852B4B5985005CC9C9 /* TodayApp.swift in Sources */,
 			);
