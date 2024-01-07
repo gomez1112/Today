@@ -1,7 +1,7 @@
 # Today - A Productivity App
 
 ## Overview
-Today is a productivity app designed for iOS, focusing on delivering daily reminders in a visually appealing and calm interface. The app leverages the power of SwiftUI and SwiftData, among other frameworks, to create an engaging user experience.
+Today is a productivity app designed for iOS that was adapted from Apple Tutorials, focusing on delivering daily reminders in a visually appealing and calm interface. The app leverages the power of SwiftUI and SwiftData, among other frameworks, to create an engaging user experience.
 
 ## Features
 - **Daily Reminders:** Stay on top of your tasks with reminders that keep you focused throughout the day.
