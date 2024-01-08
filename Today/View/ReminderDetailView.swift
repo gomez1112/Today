@@ -51,7 +51,9 @@ struct ReminderDetailView: View {
                 }
             }
             .navigationTitle("Reminder")
+            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
+            #endif
         }
     }
     private func delete(_ reminder: Reminder) {

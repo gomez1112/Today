@@ -23,12 +23,13 @@ struct ReminderEditor: View {
                 }
                 Section("Date") {
                     DatePicker("", selection: $dueDate)
-                        .datePickerStyle(.graphical)
+                       // .datePickerStyle(.graphical)
                 }
                 Section("Notes") {
                     TextField("", text: $notes, axis: .vertical)
                 }
             }
+            .formStyle(.grouped)
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Text(editorTitle)
@@ -49,8 +50,10 @@ struct ReminderEditor: View {
             }
             #if os(macOS)
             .padding()
-            #endif
+            #else
             .navigationBarTitleDisplayMode(.inline)
+            #endif
+            
         }
         .onAppear {
             if let reminder {

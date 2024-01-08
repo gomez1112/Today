@@ -36,7 +36,9 @@ struct ReminderListView: View {
                 
             }
             .navigationTitle("Reminders")
+            #if os(iOS)
             .listStyle(.grouped)
+            #endif
         }
     }
     func deleteReminder(at offsets: IndexSet) {
